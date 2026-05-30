@@ -1,0 +1,83 @@
+
+
+body {
+    background-attachment: fixed;
+    min-height: 100vh;
+    height: auto;
+    overflow-y: auto;
+}
+.tr-bg {
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid #ffcc00;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 40px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.cta-button {
+            background-color: goldenrod;
+            color: var(--text-light);
+            border: 2px solid var(--text-light);
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+            border-radius: 5%;
+        }
+
+        .cta-button:hover {
+            background-color: var(--godfather-gold);
+            border-color: var(--godfather-gold);
+            color: var(--bg-dark);
+            box-shadow: 0 0 20px rgba(192, 160, 96, 0.7);
+        }
+.x {
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid #ffcc00;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+
+
+.st1 {
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid #ffcc00;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+body {
+    
+}
+<button class="cta-button" style="display:block; margin: 0 auto;" font="pricedown">Coming Soon...</button>
+.navbar {
+  background-color: goldenrod; 
+  padding: 10px;
+  text-align: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #ffcc00;
+  border-radius: 6px;
+}
