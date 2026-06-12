@@ -9,24 +9,60 @@
 </head>
 <body>
 
-    <header class="main-header">
-        <div class="logo-vi">SCRIPTARTSTUDIO</div>
-        <div class="menu-icon">☰</div>
-    </header>
+
+
+<header class="main-header">
+    <div class="logo-vi">UNDERWORLD</div>
+    <div class="menu-icon" id="menuToggle">☰</div>
+</header>
+
+<nav class="sidebar-menu" id="sidebarMenu">
+    <div class="close-icon" id="menuClose">×</div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#imp1">Game improvements</a></li>
+        <li><a href="#character">Characters</a></li>
+        <li><a href="Download.html">Mod Download</a></li>
+    </ul>
+</nav>
+
+
+<script>
+    const menuToggle = document.getElementById('menuToggle');
+    const menuClose = document.getElementById('menuClose');
+    const sidebarMenu = document.getElementById('sidebarMenu');
+
+    menuToggle.addEventListener('click', () => {
+        sidebarMenu.classList.add('active');
+    });
+
+    menuClose.addEventListener('click', () => {
+        sidebarMenu.classList.remove('active');
+    });
+</script>
+
 
     <section class="hero-section">
         <div class="game-logo">
             <h1>Grand Theft Auto</h1>
             <h2 class="sub-logo">UNDERWORLD</h2>
         </div>
-        <p class="release-date"><button class="cta-button" style="display:block; margin: 0 auto;" font="pricedown" onclick="window.location.href">Coming June 13, 2026</button></p>
-        <div class="platforms">PC ONLY / MODLOADER</div>
+        <p class="release-date"><button class="cta-button" style="display:block; margin: 0 auto;" font="pricedown" onclick="window.location.href='download.html'">DOWNLOAD</button></p>
+        <div class="platforms">PC ONLY</div>
     </section>
     <br><br>
 <h1 style="color: #d4af37" align="center">Watch Official Trailer</h1><br><br>
-   <div align="center"><video src="Official Tr GTA UnderWorld.mp4" align="center" controls width="80%"></video></div>
+   <div align="center" class="tro"><video src="Official Tr GTA UnderWorld.mp4" align="center" controls width="80%" style="max-width: 100%;"></video></div>
+  <br><br>
+  
+  
+  
+   <details style="color:#d4af37;" align="center" >
+<summary style="font-size:30px">Watch Trailer 1</summary><br><br>
+<div class="tro"><video controls src="Tr1-B.mp4" width="80%"></video></div>
+</details>
     <section class="story-section">
-        <div class="imp1"><h3>improvements in GTA San:</h3></div>
+        <div class="imp1"><h3 id="imp1">improvements in GTA San:</h3></div>
         <p class="story-text">
             New physics and cars sounds. new simple graphics you can change it from F10 and refrech in F11
 
@@ -74,28 +110,29 @@
 <div class="rod1"></div>
 
 
-<section class="characters-showcase">
+<section class="characters-showcase" id="character">
         
         <div class="character-card">
             <div class="char-img-box">
-                <img src="Aslan.png" alt="Aslan Karahan">
+                <img src="cj2.png" alt="Aslan Karahan">
             </div>
             <div class="char-info-box">
-                <h3 class="char-title">ASLAN KARAHAN</h3>
+                <h3 class="char-title">Carl Jhonson (CJ)</h3>
                 <p class="char-description">
-                    He is a dead man. He killed more than 30 people who tried to assassinate him and he came to Los Santos to expand his business.
+                    after The story cj he owned the largest real estates and casinos and he took control of Los Santos.
                 </p>
+                <br>
             </div>
         </div>
 
         <div class="character-card">
             <div class="char-img-box">
-                <img src="cj2.png" alt="Carl Jhonson (CJ)">
+                <img src="Aslan.png" alt="Carl Jhonson (CJ)">
             </div>
             <div class="char-info-box">
-                <h3 class="char-title">Carl Jhonson (CJ)</h3>
-                <p class="char-description">
-                  after The story cj he owned the largest real estates and casinos and he took control of Los Santos.<br><br>
+                <h3 class="char-title">ASLAN KARAHAN</h3>
+                <p class="char-description">He is a dead man. He killed more than 30 people who tried to assassinate him and he came to Los Santos to expand his business.
+                  <br>
                 </p>
             </div>
         </div>

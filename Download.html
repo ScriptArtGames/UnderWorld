@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GTA Underworld - Download</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <style>
         * {
             margin: 0;
@@ -144,10 +145,72 @@
 </head>
 <body>
 
-    <header class="main-header">
-        <div class="logo-vi">UNDERWORLD</div>
-        <div class="menu-icon">☰</div>
-    </header>
+
+
+
+
+
+
+
+
+
+
+
+<header class="main-header">
+    <div class="logo-vi">UNDERWORLD</div>
+    <div class="menu-icon" id="menuToggle">☰</div>
+</header>
+
+<nav class="sidebar-menu" id="sidebarMenu">
+    <div class="close-icon" id="menuClose">×</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+    </ul>
+</nav>
+
+<script>
+    const menuToggle = document.getElementById('menuToggle');
+    const menuClose = document.getElementById('menuClose');
+    const sidebarMenu = document.getElementById('sidebarMenu');
+
+    menuToggle.addEventListener('click', () => {
+        sidebarMenu.classList.add('active');
+    });
+
+    menuClose.addEventListener('click', () => {
+        sidebarMenu.classList.remove('active');
+    });
+
+    const menuLinks = document.querySelectorAll('.sidebar-menu ul li a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            sidebarMenu.classList.remove('active');
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <section class="download-section">
         <h1 class="section-title">DOWNLOAD GTA UNDERWORLD</h1>
@@ -165,7 +228,7 @@
             <div class="download-row">
                 <div class="download-info">
                     <h3>THE GAME !!</h3>
-                    <p>Dthe original game data with ModLoader</p>
+                    <p>the original game data with ModLoader</p>
                 </div>
                 <a href="https://mega.nz/file/x61wnAoA#oe0skgplPQ9SUcU5YcOlAn4ZeDDGplEmYuBRlNJVFC4" class="download-btn">DOWNLOAD</a>
             </div>
@@ -181,7 +244,7 @@
             <div class="download-row">
                 <div class="download-info">
                     <h3>PART 2</h3>
-                    <p>Cars and guns pu it in ModLoader</p>
+                    <p>Cars and guns put it in ModLoader</p>
                 </div>
                 <a href="https://mega.nz/file/QnFlTawT#4008DV2hOecpOeCnA-0dViOPAjM3-Mtrh3WwTFxTwV8" class="download-btn">DOWNLOAD</a>
             </div>
