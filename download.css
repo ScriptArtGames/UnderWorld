@@ -1,0 +1,93 @@
+.download-section {
+    padding: 60px 20px;
+    background-color: #050505;
+    text-align: center;
+}
+
+.section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.download-container {
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.download-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #0a0a0a, #111111);
+    border: 1px solid #28220f;
+    padding: 25px 35px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.download-row:hover {
+    border-color: #d4af37;
+    background: linear-gradient(to right, #0f0e0a, #161511);
+    transform: scale(1.01);
+}
+
+.download-info {
+    text-align: left;
+}
+
+.download-info h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    color: #d4af37;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.download-info p {
+    font-size: 0.95rem;
+    color: #888888;
+}
+
+.download-btn {
+    display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4rem;
+    color: #000000;
+    background-color: #d4af37;
+    padding: 12px 40px;
+    border-radius: 4px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+}
+
+.download-btn:hover {
+    background-color: #ffe89e;
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.6);
+}
+
+@media (max-width: 650px) {
+    .download-row {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 25px 20px;
+    }
+    
+    .download-info {
+        text-align: center;
+    }
+    
+    .download-btn {
+        width: 100%;
+    }
+}

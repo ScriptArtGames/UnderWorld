@@ -3,50 +3,412 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mod Download</title>
-    <link rel="icon" type="OMRstudio.png" href="Logo1.jpg">
+    <title>GTA Underworld - Download</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #050505;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .main-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            width: 100%;
+            background-color: #000000;
+            border-bottom: 1px solid #28220f;
+        }
+
+        .logo-vi {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.8rem;
+            color: #d4af37;
+            letter-spacing: 2px;
+            text-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+        }
+
+        .menu-icon {
+            font-size: 1.5rem;
+            color: #d4af37;
+            cursor: pointer;
+        }
+
+        .download-section {
+            padding: 80px 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .section-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3.5rem;
+            color: #ffffff;
+            letter-spacing: 2px;
+            margin-bottom: 50px;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        .download-container {
+            width: 100%;
+            max-width: 850px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .download-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(to right, #0a0a0a, #111111);
+            border: 1px solid #28220f;
+            padding: 25px 35px;
+            border-radius: 4px;
+            transition: 0.3s ease;
+        }
+
+        .download-row:hover {
+            border-color: #d4af37;
+            background: linear-gradient(to right, #0f0e0a, #161511);
+            transform: scale(1.01);
+        }
+
+        .download-info {
+            text-align: left;
+        }
+
+        .download-info h3 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.8rem;
+            color: #d4af37;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .download-info p {
+            font-size: 0.95rem;
+            color: #888888;
+        }
+
+        .download-btn {
+            display: inline-block;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.4rem;
+            color: #000000;
+            background-color: #d4af37;
+            padding: 12px 40px;
+            border-radius: 4px;
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-weight: bold;
+            transition: 0.3s ease;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+        }
+
+        .download-btn:hover {
+            background-color: #ffe89e;
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.6);
+        }
+
+        @media (max-width: 650px) {
+            .download-row {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+                padding: 25px 20px;
+            }
+            
+            .download-info {
+                text-align: center;
+            }
+            
+            .download-btn {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
-<br><br><br>
-<body style="background-image: url('gray.png');">
-        <h2 style="color:rgb(131, 100, 0)" align="center">the first for story copy to document/GTA San Andreas User Files</h2>
-    <button class="cta-button" style="display:block; margin: 0 auto;" font="pricedown" ><a></a>download</button><br>
-    <h2 style="color:rgb(131, 100, 0)" align="center">the second part1 of  game !!</h2>
-    <button class="cta-button" style="display:block; margin: 0 auto;" font="pricedown"><a></a>download</button><br>
-    <h2 style="color:rgb(131, 100, 0)" align="center">Third for part2 of game !!</h2>
-    <button class="cta-button" style="display:block; margin: 0 auto;" font="pricedown" ><a></a>download</button><br>
+<body>
 
+    <header class="main-header">
+        <div class="logo-vi">UNDERWORLD</div>
+        <div class="menu-icon">☰</div>
+    </header>
 
+    <section class="download-section">
+        <h1 class="section-title">DOWNLOAD GTA UNDERWORLD</h1>
+        
+        <div class="download-container">
+
+            <div class="download-row">
+                <div class="download-info">
+                    <h3>STORY MODE FILES</h3>
+                    <p>The first for story copy to document / GTA San Andreas User Files</p>
+                </div>
+                <a href="https://mega.nz/file/pm1FUYxa#Caxaw6nYG49A2h9KpaoQDIhkThxhKml3YysVUdFXM0g" class="download-btn">DOWNLOAD</a>
+            </div>
+
+            <div class="download-row">
+                <div class="download-info">
+                    <h3>THE GAME !!</h3>
+                    <p>Dthe original game data with ModLoader</p>
+                </div>
+                <a href="https://mega.nz/file/x61wnAoA#oe0skgplPQ9SUcU5YcOlAn4ZeDDGplEmYuBRlNJVFC4" class="download-btn">DOWNLOAD</a>
+            </div>
+
+            <div class="download-row">
+                <div class="download-info">
+                    <h3>PART 1</h3>
+                    <p>HD Texture Put it in ModLoader</p>
+                </div>
+                <a href="https://mega.nz/file/N2tmkR5R#2vQHdM2eScsBCCULxXSFoGMRQInfdeAMXDHlnudHDfs" class="download-btn">DOWNLOAD</a>
+            </div>
+
+            <div class="download-row">
+                <div class="download-info">
+                    <h3>PART 2</h3>
+                    <p>Cars and guns pu it in ModLoader</p>
+                </div>
+                <a href="https://mega.nz/file/QnFlTawT#4008DV2hOecpOeCnA-0dViOPAjM3-Mtrh3WwTFxTwV8" class="download-btn">DOWNLOAD</a>
+            </div>
+
+        </div>
+    </section>
 
 
 <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-.cta-button {
-            background-color: goldenrod;
-            color: var(--text-light);
-            border: 2px solid var(--text-light);
-            padding: 15px 40px;
-            font-size: 1.2rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1rem;
-            border-radius: 5px;
+        body {
+            background-color: #050505;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .main-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            width: 100%;
+            background-color: #000000;
+            border-bottom: 1px solid #28220f;
+        }
+
+        .logo-vi {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.8rem;
+            color: #d4af37;
+            letter-spacing: 2px;
+            text-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+        }
+
+        .menu-icon {
+            font-size: 1.5rem;
+            color: #d4af37;
             cursor: pointer;
-            transition: all 0.3s ease;
-            margin-top: 30px;
-            border-radius: 5%;
         }
 
-        .cta-button:hover {
-            background-color: var(--godfather-gold);
-            border-color: var(--godfather-gold);
-            color: var(--bg-dark);
-            box-shadow: 0 0 20px rgba(192, 160, 96, 0.7);
+        .specs-section {
+            padding: 80px 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
+        .section-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 3.5rem;
+            color: #ffffff;
+            letter-spacing: 2px;
+            margin-bottom: 50px;
+            text-align: center;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
 
-</style>
+        .specs-container {
+            width: 100%;
+            max-width: 1000px;
+            display: flex;
+            gap: 30px;
+        }
+
+        .specs-box {
+            flex: 1;
+            background: linear-gradient(to bottom, #0a0a0a, #111111);
+            border: 1px solid #28220f;
+            padding: 40px;
+            border-radius: 4px;
+            transition: 0.3s ease;
+        }
+
+        .specs-box:hover {
+            border-color: #d4af37;
+            background: linear-gradient(to bottom, #0f0e0a, #161511);
+            transform: translateY(-5px);
+        }
+
+        .specs-box h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.2rem;
+            color: #d4af37;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #28220f;
+            padding-bottom: 10px;
+        }
+
+        /* تمييز بوكس الـ MAX/RECOMMENDED بلون ذهبي خفيف للإطار */
+        .specs-box.max-specs {
+            border-color: #4a3e1a;
+        }
+
+        .spec-item {
+            margin-bottom: 20px;
+        }
+
+        .spec-item strong {
+            display: block;
+            font-size: 0.85rem;
+            color: #888888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 3px;
+        }
+
+        .spec-item p {
+            font-size: 1.05rem;
+            color: #ffffff;
+            font-weight: 500;
+        }
+
+        /* التجاوب مع الشاشات الصغيرة والهواتف */
+        @media (max-width: 768px) {
+            .specs-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .specs-box {
+                padding: 30px 20px;
+            }
+
+            .section-title {
+                font-size: 2.5rem;
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
 
 
+    <section class="specs-section">
+        <h1 class="section-title">SYSTEM REQUIREMENTS</h1>
+        
+        <div class="specs-container">
 
+            <div class="specs-box min-specs">
+                <h2>MINIMUM SPECIFICATIONS</h2>
+                
+                <div class="spec-item">
+                    <strong>OS</strong>
+                    <p>Windows 7 / 8 / 10 (64-bit)</p>
+                </div>
+
+                <div class="spec-item">
+                    <strong>Processor</strong>
+                    <p>Intel Pentium 4 or AMD Athlon XP</p>
+                </div>
+
+                <div class="spec-item">
+                    <strong>Memory (RAM)</strong>
+                    <p>4 GB RAM</p>
+                </div>
+
+                <div class="spec-item">
+                    <strong>Graphics Card</strong>
+                    <p>512 MB - NVIDIA GeForce 6 series</p>
+                </div>
+
+                <div class="spec-item">
+                    <strong>DirectX</strong>
+                    <p>Version 9.0c</p>
+                </div>
+
+                <div class="spec-item">
+                    <strong>Storage</strong>
+                    <p>15 GB available space</p>
+                </div>
+            </div>
+
+            <div class="specs-box max-specs">
+                <h2>RECOMMENDED SPECIFICATIONS</h2>
+                
+                <div class="spec-item">
+                    <strong>OS</strong>
+                    <p>Windows 10 / 11 (64-bit)</p>
+                </div>
+
+                <div class="spec-item">
+                    <strong>Processor</strong>
+                    <p>Intel Core i3 / AMD FX-4300</p>
+                </div>
+
+                <div class="spec-item">
+                    <strong>Memory (RAM)</strong>
+                    <p>8 GB RAM or higher</p>
+                </div>
+
+                <div class="spec-item">
+                    <strong>Graphics Card</strong>
+                    <p>1-2 GB - NVIDIA GeForce GTX 460 / AMD Radeon HD 6850</p>
+                </div>
+
+                <div class="spec-item">
+                    <strong>DirectX</strong>
+                    <p>Version 9.0c / 11</p>
+                </div>
+
+                <div class="spec-item">
+                    <strong>Storage</strong>
+                    <p>20 GB available space (For high textures)</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+<div style="color: #d4af37">
+<h1  align="center">IMPORTANT NOTE FOR PLAYERS:</h1>
+<h2  align="center">stability & Fixes Included: This modpack comes pre-configured with Limit Adjuster Mixsets, and SilentPatch to ensure maximum stability, the streaming memory is set to 1024MB, which prevents loading screen crashes and white weapon texture, if you have 8GB RAM go to Mixsets.ini and set streaming memory to 2048 but don't put it to 3.5GB+ </h2>
+<br><br>
+
+<h1  align="center">Warning:</h1>
+<h2  align="center"> Please do not install heavy graphics mods (like ENB or ultra-realistic shader) on top this pack if you are playing on a low-end PC, as it may cause memory exhaustion and crashes.</h2>
+<h2  align="center"> if you have a powerful PC and plan to install your own heavy graphic mods (such as END series or advanced shaders), please delete the skygfx folder from your game directory (inside modloader)</h2>
+</div>
 
 </body>
 </html>
